@@ -22,7 +22,7 @@ class CircketTeam extends Component {
     }
 
     handleLiked = (list) => {
-        const crickedListDummy = [...this.state.cricketerList];
+        const crickedListDummy  = [...this.state.cricketerList];
         const index = crickedListDummy.indexOf(list);
         crickedListDummy[index] = { ...crickedListDummy[index] };
         crickedListDummy[index].liked = !crickedListDummy[index].liked;
