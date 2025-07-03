@@ -26,7 +26,7 @@ class CircketTeam extends Component {
         const index = crickedListDummy.indexOf(list);
         crickedListDummy[index] = { ...crickedListDummy[index] };
         crickedListDummy[index].liked = !crickedListDummy[index].liked;
-        this.setState({ cricketerList: crickedListDummy });
+        this.setState({ cricketerList: crickedListDummy  });
     }
 
     handleSearch = (query) => {
