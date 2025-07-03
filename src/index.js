@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
+// import Counter from './components/counter';
+// import Movies from './homework/movies';
+// import HotelName from "./homework/hotelClass";
+// import ComposingComponent from "./Study/ComposingComponents/ComposingComponent";
+// import Demo from "./Study/ComposingComponents/demo";
+// import Circket from "./homework/Cricket/cricket";
+import Main from "./homework/Cricket/main";
+// import UseContext from "./hooks/useContext";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+   <Main/>
   </React.StrictMode>
 );
 

@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### These are written by Madhusudhan
+Create a folder in local disk C "REACT_FROM_GROUND"
+Open vs code from that folder 
+npx create-react-app "hello world"
+cd helloworld
+npm install
+npm start
+
+## add bootstrap to our project
+npm install bootstrap@4.1.1
+and add 
+import 'bootstrap/dist/css/bootstrap.css'; in index.js file
+
+
+
